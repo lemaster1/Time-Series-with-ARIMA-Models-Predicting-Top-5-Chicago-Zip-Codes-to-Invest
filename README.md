@@ -5,7 +5,7 @@ John Lemaster
 
 # Business Case Summary
 
-Master Advisory firm has been hired to find the top 5 zip codes to invest in the Chicago housing market.  The metrics for top investments are (1.) ROI and (2.) risks.  ROI has the highest determining factor.  We view one of the best methods to manage risks are by avoiding those investments that have the sharpest declines during market crashes and consolidations.  Other investment considerations include:  (1) Those neighborhoods with Chicago’s tier 1 classifications as well as having some of the lowest violent crime percentages.  (2) More established neighborhoods that still have high past growth rates
+Project to find the top 5 zip codes to invest in the Chicago housing market.  The metrics using for this project's top investments are (1.) ROI and (2.) risks.  ROI has the highest determining factor.  One of the best methods to manage risks are by avoiding those investments that have the sharpest declines during market crashes and consolidations.  Other investment considerations include:  (1) Those neighborhoods with Chicago’s tier 1 classifications as well as having some of the lowest violent crime percentages.  (2) More established neighborhoods that still have high past growth rates
 (3.) A time horizon of at least 10 years to minimize liquids and market risks
 
 You will have these results as part of this technical notebook for you review. In addition, there will be a summary of observations of the data and our recommendations of top 5 zip codes.
@@ -6633,9 +6633,9 @@ ax.set(title = 'Top Zip Code Housing Prices', ylabel = 'Price (USD)')
 ```
 
 # Conclusion
-We analyzed the Chicago housing market historical data for the last 22 years.  That historical data and graphs are part of this technical workbook.  
+We analyzed the Chicago housing market historical data for the last 22 years.  The historical data and the graphs are part of this technical workbook.  
 
-We created 3 datasets:  Train, Test & Predictions.  The training data is used to build our forecast models.  The test data is used as a comparison to the trained data to know how well our model has performed.  Finally we make predictions based on the successful model iteration.  Based upon our model findings, we recommend the following zip codes:
+There are 3 datasets:  Train, Test & Predictions.  The training data is used to build our forecast models.  The test data is used as a comparison to the trained data to know how well models performed.  Finally, made predictions based on the successful model iterations.  Based upon our model findings, the following zip codes are recommended:
 
     1) 60618 (42.11%)
     2) 60640 (38.23%)
@@ -6643,7 +6643,7 @@ We created 3 datasets:  Train, Test & Predictions.  The training data is used to
     4) 60613 (32.37%)
     5) 60660 (30.87%)
     
-These are ordered in rank by ROI.  These are the top 5 zip codes that you have requested.  
+These are ordered in rank by ROI.  
  
 
 > If you consider loss from the last major crash (Dec.,  2009) the order of best investment would change; therefore, 60613 would be our top recommendation.  This would de-prioritize 60618 and 60640 (the bottom two)
